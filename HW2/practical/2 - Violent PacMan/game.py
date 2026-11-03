@@ -23,17 +23,14 @@ Controls (human play):
 """
 
 import copy
+import os
 import random
 from dataclasses import dataclass
 from enum import Enum, auto
 from typing import Dict, List, Optional, Tuple
 
-import pygame
-
-
-                                                                                
-               
-                                                                                
+os.environ.setdefault('PYGAME_HIDE_SUPPORT_PROMPT', '1')
+pygame = None
 
 @dataclass
 class GameConfig:
@@ -762,8 +759,11 @@ class PacmanGame:
         }
 
     def _init_pygame(self):
+        global pygame
         if self._screen is not None:
             return
+        if pygame is None:
+            import pygame
         pygame.init()
         cfg = self.config
         w   = cfg.grid_width  * cfg.cell_size
