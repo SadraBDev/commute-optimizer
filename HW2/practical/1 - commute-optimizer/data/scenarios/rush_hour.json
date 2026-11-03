@@ -1,0 +1,34 @@
+{
+  "scenario_name": "Morning Peak Rush Hour",
+  "description": "Severe Gaussian bottleneck on main highway between 07:45 and 08:30 AM",
+  "peaks": [
+    {
+      "u": "Home",
+      "v": "H1",
+      "peak_time": 480.0,
+      "sigma": 20.0,
+      "amplitude": 3.0
+    },
+    {
+      "u": "H1",
+      "v": "H2",
+      "peak_time": 495.0,
+      "sigma": 25.0,
+      "amplitude": 4.0
+    },
+    {
+      "u": "H2",
+      "v": "Uni",
+      "peak_time": 505.0,
+      "sigma": 20.0,
+      "amplitude": 3.5
+    },
+    {
+      "u": "B1",
+      "v": "B2",
+      "peak_time": 490.0,
+      "sigma": 30.0,
+      "amplitude": 0.4
+    }
+  ]
+}

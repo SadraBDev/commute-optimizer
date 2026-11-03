@@ -1,0 +1,90 @@
+{
+  "scenario_name": "Downtown Flat Plateau Benchmark",
+  "description": "Uniform moderate congestion creating broad flat cost plateaus to test sideways moves",
+  "peaks": [
+    {
+      "u": "Home",
+      "v": "G1",
+      "peak_time": 480.0,
+      "sigma": 40.0,
+      "amplitude": 1.0
+    },
+    {
+      "u": "Home",
+      "v": "G4",
+      "peak_time": 480.0,
+      "sigma": 40.0,
+      "amplitude": 1.0
+    },
+    {
+      "u": "G1",
+      "v": "G5",
+      "peak_time": 480.0,
+      "sigma": 40.0,
+      "amplitude": 1.0
+    },
+    {
+      "u": "G4",
+      "v": "G5",
+      "peak_time": 480.0,
+      "sigma": 40.0,
+      "amplitude": 1.0
+    },
+    {
+      "u": "G5",
+      "v": "G6",
+      "peak_time": 480.0,
+      "sigma": 40.0,
+      "amplitude": 1.0
+    },
+    {
+      "u": "G5",
+      "v": "G9",
+      "peak_time": 480.0,
+      "sigma": 40.0,
+      "amplitude": 1.0
+    },
+    {
+      "u": "G6",
+      "v": "G7",
+      "peak_time": 480.0,
+      "sigma": 40.0,
+      "amplitude": 1.0
+    },
+    {
+      "u": "G9",
+      "v": "G10",
+      "peak_time": 480.0,
+      "sigma": 40.0,
+      "amplitude": 1.0
+    },
+    {
+      "u": "G6",
+      "v": "G10",
+      "peak_time": 480.0,
+      "sigma": 40.0,
+      "amplitude": 1.0
+    },
+    {
+      "u": "G7",
+      "v": "Uni",
+      "peak_time": 480.0,
+      "sigma": 40.0,
+      "amplitude": 1.0
+    },
+    {
+      "u": "G10",
+      "v": "Uni",
+      "peak_time": 480.0,
+      "sigma": 40.0,
+      "amplitude": 1.0
+    },
+    {
+      "u": "G2",
+      "v": "G3",
+      "peak_time": 480.0,
+      "sigma": 10.0,
+      "amplitude": 0.0
+    }
+  ]
+}

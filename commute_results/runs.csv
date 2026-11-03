@@ -1,0 +1,61 @@
+﻿scenario,map,algorithm,seed,cost_min,departure,path,runtime_s,iterations
+rush_hour,toy_graph,Hill Climbing,17,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.0095231999985117,61
+rush_hour,toy_graph,Simulated Annealing,17,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.16428970000015397,1457
+rush_hour,toy_graph,Local Beam Search,17,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.003392599999642698,3
+rush_hour,toy_graph,Genetic Algorithm,17,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.2894974999999249,120
+rush_hour,toy_graph,Hill Climbing,42,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.00694620000103896,47
+rush_hour,toy_graph,Simulated Annealing,42,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.16079760000138776,1457
+rush_hour,toy_graph,Local Beam Search,42,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.004411800000525545,4
+rush_hour,toy_graph,Genetic Algorithm,42,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.27479870000024675,120
+rush_hour,toy_graph,Hill Climbing,101,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.01137380000000121,77
+rush_hour,toy_graph,Simulated Annealing,101,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.15334579999944253,1457
+rush_hour,toy_graph,Local Beam Search,101,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.005408000000898028,3
+rush_hour,toy_graph,Genetic Algorithm,101,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.28122740000071644,120
+dual_peak_rush_hour,metropolis_graph,Hill Climbing,17,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.02181419999942591,85
+dual_peak_rush_hour,metropolis_graph,Simulated Annealing,17,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.28590880000047036,1457
+dual_peak_rush_hour,metropolis_graph,Local Beam Search,17,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.014229699998395517,7
+dual_peak_rush_hour,metropolis_graph,Genetic Algorithm,17,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.41773279999870283,120
+dual_peak_rush_hour,metropolis_graph,Hill Climbing,42,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.023619999999937136,92
+dual_peak_rush_hour,metropolis_graph,Simulated Annealing,42,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.2842856000006577,1457
+dual_peak_rush_hour,metropolis_graph,Local Beam Search,42,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.009611200001018005,5
+dual_peak_rush_hour,metropolis_graph,Genetic Algorithm,42,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.4102031000002171,120
+dual_peak_rush_hour,metropolis_graph,Hill Climbing,101,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.022015400001691887,97
+dual_peak_rush_hour,metropolis_graph,Simulated Annealing,101,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.26542979999976524,1457
+dual_peak_rush_hour,metropolis_graph,Local Beam Search,101,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.00816090000080294,4
+dual_peak_rush_hour,metropolis_graph,Genetic Algorithm,101,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.40263640000011947,120
+cascading_gridlock,metropolis_graph,Hill Climbing,17,31.01863340914167,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.02584250000109023,92
+cascading_gridlock,metropolis_graph,Simulated Annealing,17,31.01863340914167,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.2662212000013824,1457
+cascading_gridlock,metropolis_graph,Local Beam Search,17,31.01863340914167,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.011705799999617739,6
+cascading_gridlock,metropolis_graph,Genetic Algorithm,17,31.01863340914167,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.4137832000014896,120
+cascading_gridlock,metropolis_graph,Hill Climbing,42,31.01863340914167,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.024386699999013217,104
+cascading_gridlock,metropolis_graph,Simulated Annealing,42,31.01863340914167,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.29300859999966633,1457
+cascading_gridlock,metropolis_graph,Local Beam Search,42,31.01863340914167,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.007985499998540035,4
+cascading_gridlock,metropolis_graph,Genetic Algorithm,42,31.01863340914167,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.4040555999999924,120
+cascading_gridlock,metropolis_graph,Hill Climbing,101,31.01863340914167,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.03194260000054783,133
+cascading_gridlock,metropolis_graph,Simulated Annealing,101,31.01863340914167,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.28924580000057176,1457
+cascading_gridlock,metropolis_graph,Local Beam Search,101,31.01863340914167,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.006220799999937299,3
+cascading_gridlock,metropolis_graph,Genetic Algorithm,101,31.01863340914167,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.42963960000088264,120
+crossover_showcase,metropolis_graph,Hill Climbing,17,31.007595501452784,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.02060460000029707,79
+crossover_showcase,metropolis_graph,Simulated Annealing,17,31.007595501452784,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.28102840000065044,1457
+crossover_showcase,metropolis_graph,Local Beam Search,17,31.007595501452784,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.016359799999918323,8
+crossover_showcase,metropolis_graph,Genetic Algorithm,17,31.007595501452784,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.4364824000003864,120
+crossover_showcase,metropolis_graph,Hill Climbing,42,31.007595501452784,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.026066999998874962,109
+crossover_showcase,metropolis_graph,Simulated Annealing,42,31.007595501452784,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.28832409999995434,1457
+crossover_showcase,metropolis_graph,Local Beam Search,42,31.007595501452784,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.017407499999535503,9
+crossover_showcase,metropolis_graph,Genetic Algorithm,42,31.007595501452784,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.4194569999999658,120
+crossover_showcase,metropolis_graph,Hill Climbing,101,31.007595501452784,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.0323629999984405,132
+crossover_showcase,metropolis_graph,Simulated Annealing,101,31.007595501452784,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.30076609999923676,1457
+crossover_showcase,metropolis_graph,Local Beam Search,101,31.007595501452784,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.010242099999231868,5
+crossover_showcase,metropolis_graph,Genetic Algorithm,101,31.007595501452784,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.4220053999997617,120
+flat_plateau,downtown_grid,Hill Climbing,17,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.014716900001076283,93
+flat_plateau,downtown_grid,Simulated Annealing,17,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.18659710000065388,1457
+flat_plateau,downtown_grid,Local Beam Search,17,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.01740789999894332,13
+flat_plateau,downtown_grid,Genetic Algorithm,17,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.3571691999986797,120
+flat_plateau,downtown_grid,Hill Climbing,42,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.015208400000119582,91
+flat_plateau,downtown_grid,Simulated Annealing,42,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.21142239999971935,1457
+flat_plateau,downtown_grid,Local Beam Search,42,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.006724800001393305,5
+flat_plateau,downtown_grid,Genetic Algorithm,42,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.3673963000001095,120
+flat_plateau,downtown_grid,Hill Climbing,101,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.016286199999740347,105
+flat_plateau,downtown_grid,Simulated Annealing,101,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.1872720000010304,1457
+flat_plateau,downtown_grid,Local Beam Search,101,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.005139400000189198,4
+flat_plateau,downtown_grid,Genetic Algorithm,101,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.3659979999993084,120

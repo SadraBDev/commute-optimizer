@@ -1,0 +1,97 @@
+{
+  "scenario_name": "Multi-Modal Dual Peak Rush Hour",
+  "description": "Overlapping morning waves with secondary arterial spillovers",
+  "peaks": [
+    {
+      "u": "Home",
+      "v": "N1",
+      "peak_time": 450.0,
+      "sigma": 15.0,
+      "amplitude": 2.5
+    },
+    {
+      "u": "Home",
+      "v": "N1",
+      "peak_time": 490.0,
+      "sigma": 20.0,
+      "amplitude": 3.8
+    },
+    {
+      "u": "N1",
+      "v": "N2",
+      "peak_time": 460.0,
+      "sigma": 18.0,
+      "amplitude": 2.8
+    },
+    {
+      "u": "N1",
+      "v": "N2",
+      "peak_time": 500.0,
+      "sigma": 22.0,
+      "amplitude": 4.5
+    },
+    {
+      "u": "N2",
+      "v": "N3",
+      "peak_time": 510.0,
+      "sigma": 20.0,
+      "amplitude": 4.0
+    },
+    {
+      "u": "N3",
+      "v": "Uni",
+      "peak_time": 520.0,
+      "sigma": 16.0,
+      "amplitude": 3.2
+    },
+    {
+      "u": "C1",
+      "v": "C2",
+      "peak_time": 475.0,
+      "sigma": 25.0,
+      "amplitude": 1.6
+    },
+    {
+      "u": "C2",
+      "v": "C3",
+      "peak_time": 485.0,
+      "sigma": 30.0,
+      "amplitude": 2.0
+    },
+    {
+      "u": "C3",
+      "v": "C4",
+      "peak_time": 500.0,
+      "sigma": 20.0,
+      "amplitude": 1.8
+    },
+    {
+      "u": "B1",
+      "v": "C2",
+      "peak_time": 470.0,
+      "sigma": 12.0,
+      "amplitude": 2.2
+    },
+    {
+      "u": "C2",
+      "v": "B2",
+      "peak_time": 495.0,
+      "sigma": 15.0,
+      "amplitude": 2.6
+    },
+    {
+      "u": "S1",
+      "v": "S2",
+      "peak_time": 485.0,
+      "sigma": 35.0,
+      "amplitude": 0.5
+    },
+    {
+      "u": "S2",
+      "v": "S3",
+      "peak_time": 495.0,
+      "sigma": 35.0,
+      "amplitude": 0.6
+    }
+  ]
+}

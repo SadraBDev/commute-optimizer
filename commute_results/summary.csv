@@ -1,0 +1,21 @@
+﻿scenario,algorithm,best_cost_min,best_departure,best_path,avg_runtime_s,avg_iterations,runs
+rush_hour,Hill Climbing,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.00928106666651729,61.666666666666664,3
+rush_hour,Simulated Annealing,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.1594777000003281,1457.0,3
+rush_hour,Local Beam Search,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.004404133333688757,3.3333333333333335,3
+rush_hour,Genetic Algorithm,41.77261734682702,08:45,Home -> B1 -> B2 -> H2 -> Uni,0.28184120000029605,120.0,3
+dual_peak_rush_hour,Hill Climbing,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.022483200000351644,91.33333333333333,3
+dual_peak_rush_hour,Simulated Annealing,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.27854140000029776,1457.0,3
+dual_peak_rush_hour,Local Beam Search,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.01066726666673882,5.333333333333333,3
+dual_peak_rush_hour,Genetic Algorithm,31.691504084134408,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.41019076666634646,120.0,3
+cascading_gridlock,Hill Climbing,31.01863340914167,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.02739060000021709,109.66666666666667,3
+cascading_gridlock,Simulated Annealing,31.01863340914167,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.2828252000005402,1457.0,3
+cascading_gridlock,Local Beam Search,31.01863340914167,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.00863736666603169,4.333333333333333,3
+cascading_gridlock,Genetic Algorithm,31.01863340914167,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.41582613333412155,120.0,3
+crossover_showcase,Hill Climbing,31.007595501452784,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.026344866665870843,106.66666666666667,3
+crossover_showcase,Simulated Annealing,31.007595501452784,08:45,Home -> C1 -> C2 -> B2 -> Uni,0.29003953333328053,1457.0,3
+crossover_showcase,Local Beam Search,31.007595501452784,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.014669799999561898,7.333333333333333,3
+crossover_showcase,Genetic Algorithm,31.007595501452784,08:45,Home -> C1 -> C2 -> T2 -> Uni,0.425981600000038,120.0,3
+flat_plateau,Hill Climbing,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.015403833333645403,96.33333333333333,3
+flat_plateau,Simulated Annealing,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.19509716666713453,1457.0,3
+flat_plateau,Local Beam Search,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.009757366666841941,7.333333333333333,3
+flat_plateau,Genetic Algorithm,28.85155203658087,08:45,Home -> G1 -> G2 -> G3 -> G7 -> Uni,0.3635211666660325,120.0,3

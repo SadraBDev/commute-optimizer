@@ -1,0 +1,76 @@
+{
+  "scenario_name": "GA Building Block & Crossover Benchmark",
+  "description": "Constructed so optimal route is a hybrid combination of two sub-routes intersecting at C2",
+  "peaks": [
+    {
+      "u": "Home",
+      "v": "S1",
+      "peak_time": 480.0,
+      "sigma": 30.0,
+      "amplitude": 5.0
+    },
+    {
+      "u": "S1",
+      "v": "T1",
+      "peak_time": 485.0,
+      "sigma": 30.0,
+      "amplitude": 4.5
+    },
+    {
+      "u": "S1",
+      "v": "S2",
+      "peak_time": 490.0,
+      "sigma": 30.0,
+      "amplitude": 4.0
+    },
+    {
+      "u": "N2",
+      "v": "N3",
+      "peak_time": 495.0,
+      "sigma": 30.0,
+      "amplitude": 5.5
+    },
+    {
+      "u": "N3",
+      "v": "Uni",
+      "peak_time": 505.0,
+      "sigma": 30.0,
+      "amplitude": 6.0
+    },
+    {
+      "u": "B2",
+      "v": "N3",
+      "peak_time": 500.0,
+      "sigma": 30.0,
+      "amplitude": 4.5
+    },
+    {
+      "u": "C3",
+      "v": "C4",
+      "peak_time": 490.0,
+      "sigma": 25.0,
+      "amplitude": 3.0
+    },
+    {
+      "u": "C4",
+      "v": "Uni",
+      "peak_time": 500.0,
+      "sigma": 25.0,
+      "amplitude": 3.5
+    },
+    {
+      "u": "Home",
+      "v": "C1",
+      "peak_time": 465.0,
+      "sigma": 15.0,
+      "amplitude": 2.0
+    },
+    {
+      "u": "C1",
+      "v": "C2",
+      "peak_time": 470.0,
+      "sigma": 15.0,
+      "amplitude": 2.0
+    }
+  ]
+}

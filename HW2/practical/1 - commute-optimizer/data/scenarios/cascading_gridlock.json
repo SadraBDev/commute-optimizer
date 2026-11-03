@@ -1,0 +1,90 @@
+{
+  "scenario_name": "Cascading Gridlock & Deceptive Trap",
+  "description": "Downstream bottleneck trap designed to test FIFO temporal optimization",
+  "peaks": [
+    {
+      "u": "Home",
+      "v": "N1",
+      "peak_time": 450.0,
+      "sigma": 10.0,
+      "amplitude": 0.4
+    },
+    {
+      "u": "N1",
+      "v": "N2",
+      "peak_time": 470.0,
+      "sigma": 12.0,
+      "amplitude": 1.8
+    },
+    {
+      "u": "N2",
+      "v": "N3",
+      "peak_time": 495.0,
+      "sigma": 15.0,
+      "amplitude": 6.5
+    },
+    {
+      "u": "N3",
+      "v": "Uni",
+      "peak_time": 505.0,
+      "sigma": 18.0,
+      "amplitude": 7.0
+    },
+    {
+      "u": "N2",
+      "v": "C3",
+      "peak_time": 490.0,
+      "sigma": 14.0,
+      "amplitude": 4.5
+    },
+    {
+      "u": "C1",
+      "v": "C2",
+      "peak_time": 460.0,
+      "sigma": 20.0,
+      "amplitude": 2.5
+    },
+    {
+      "u": "C2",
+      "v": "C3",
+      "peak_time": 480.0,
+      "sigma": 18.0,
+      "amplitude": 3.0
+    },
+    {
+      "u": "C3",
+      "v": "C4",
+      "peak_time": 500.0,
+      "sigma": 22.0,
+      "amplitude": 3.5
+    },
+    {
+      "u": "C4",
+      "v": "Uni",
+      "peak_time": 515.0,
+      "sigma": 18.0,
+      "amplitude": 4.0
+    },
+    {
+      "u": "Home",
+      "v": "S1",
+      "peak_time": 450.0,
+      "sigma": 20.0,
+      "amplitude": 0.8
+    },
+    {
+      "u": "T1",
+      "v": "C2",
+      "peak_time": 475.0,
+      "sigma": 15.0,
+      "amplitude": 1.2
+    },
+    {
+      "u": "B1",
+      "v": "C2",
+      "peak_time": 475.0,
+      "sigma": 15.0,
+      "amplitude": 2.8
+    }
+  ]
+}

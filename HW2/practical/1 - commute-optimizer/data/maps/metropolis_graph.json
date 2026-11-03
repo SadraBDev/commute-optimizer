@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {"id": "Home", "x": 0.0,  "y": 5.0,  "label": "Home (Origin)"},
+    {"id": "N1",   "x": 2.5,  "y": 9.0,  "label": "North Expressway 1"},
+    {"id": "N2",   "x": 6.0,  "y": 9.5,  "label": "North Expressway 2"},
+    {"id": "N3",   "x": 9.5,  "y": 9.0,  "label": "North Expressway 3"},
+    {"id": "C1",   "x": 2.5,  "y": 5.0,  "label": "Central Square 1"},
+    {"id": "C2",   "x": 5.0,  "y": 5.0,  "label": "Midtown Hub"},
+    {"id": "C3",   "x": 7.5,  "y": 5.0,  "label": "Central Square 3"},
+    {"id": "C4",   "x": 9.5,  "y": 5.0,  "label": "Civic Center"},
+    {"id": "S1",   "x": 2.5,  "y": 1.0,  "label": "South Ring 1"},
+    {"id": "S2",   "x": 6.0,  "y": 0.5,  "label": "South Ring 2"},
+    {"id": "S3",   "x": 9.5,  "y": 1.0,  "label": "South Ring 3"},
+    {"id": "B1",   "x": 4.0,  "y": 7.0,  "label": "North-Central Bridge"},
+    {"id": "B2",   "x": 8.0,  "y": 7.0,  "label": "Northeast Connector"},
+    {"id": "T1",   "x": 4.0,  "y": 3.0,  "label": "South-Central Tunnel"},
+    {"id": "T2",   "x": 8.0,  "y": 3.0,  "label": "Southeast Connector"},
+    {"id": "Uni",  "x": 12.0, "y": 5.0,  "label": "University (Dest)"}
+  ],
+  "edges": [
+    {"u": "Home", "v": "N1", "base_time": 8.0},
+    {"u": "Home", "v": "C1", "base_time": 9.0},
+    {"u": "Home", "v": "S1", "base_time": 12.0},
+
+    {"u": "N1", "v": "N2", "base_time": 8.0},
+    {"u": "N2", "v": "N3", "base_time": 8.0},
+    {"u": "N3", "v": "Uni", "base_time": 9.0},
+
+    {"u": "C1", "v": "C2", "base_time": 7.0},
+    {"u": "C2", "v": "C3", "base_time": 7.0},
+    {"u": "C3", "v": "C4", "base_time": 7.0},
+    {"u": "C4", "v": "Uni", "base_time": 8.0},
+
+    {"u": "S1", "v": "S2", "base_time": 11.0},
+    {"u": "S2", "v": "S3", "base_time": 11.0},
+    {"u": "S3", "v": "Uni", "base_time": 12.0},
+
+    {"u": "N1", "v": "B1", "base_time": 4.0},
+    {"u": "B1", "v": "C2", "base_time": 5.0},
+    {"u": "C2", "v": "B2", "base_time": 5.0},
+    {"u": "B2", "v": "N3", "base_time": 4.0},
+
+    {"u": "S1", "v": "T1", "base_time": 4.0},
+    {"u": "T1", "v": "C2", "base_time": 5.0},
+    {"u": "C2", "v": "T2", "base_time": 5.0},
+    {"u": "T2", "v": "S3", "base_time": 4.0},
+
+    {"u": "N2", "v": "C3", "base_time": 6.0},
+    {"u": "C2", "v": "S2", "base_time": 6.0},
+    {"u": "C3", "v": "N3", "base_time": 6.0},
+    {"u": "S2", "v": "C3", "base_time": 6.0},
+
+    {"u": "B2", "v": "Uni", "base_time": 10.0},
+    {"u": "T2", "v": "Uni", "base_time": 10.0}
+  ]
+}

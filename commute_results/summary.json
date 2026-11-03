@@ -1,0 +1,202 @@
+[
+  {
+    "scenario": "rush_hour",
+    "algorithm": "Hill Climbing",
+    "best_cost_min": 41.77261734682702,
+    "best_departure": "08:45",
+    "best_path": "Home -> B1 -> B2 -> H2 -> Uni",
+    "avg_runtime_s": 0.00928106666651729,
+    "avg_iterations": 61.666666666666664,
+    "runs": 3
+  },
+  {
+    "scenario": "rush_hour",
+    "algorithm": "Simulated Annealing",
+    "best_cost_min": 41.77261734682702,
+    "best_departure": "08:45",
+    "best_path": "Home -> B1 -> B2 -> H2 -> Uni",
+    "avg_runtime_s": 0.1594777000003281,
+    "avg_iterations": 1457.0,
+    "runs": 3
+  },
+  {
+    "scenario": "rush_hour",
+    "algorithm": "Local Beam Search",
+    "best_cost_min": 41.77261734682702,
+    "best_departure": "08:45",
+    "best_path": "Home -> B1 -> B2 -> H2 -> Uni",
+    "avg_runtime_s": 0.004404133333688757,
+    "avg_iterations": 3.3333333333333335,
+    "runs": 3
+  },
+  {
+    "scenario": "rush_hour",
+    "algorithm": "Genetic Algorithm",
+    "best_cost_min": 41.77261734682702,
+    "best_departure": "08:45",
+    "best_path": "Home -> B1 -> B2 -> H2 -> Uni",
+    "avg_runtime_s": 0.28184120000029605,
+    "avg_iterations": 120.0,
+    "runs": 3
+  },
+  {
+    "scenario": "dual_peak_rush_hour",
+    "algorithm": "Hill Climbing",
+    "best_cost_min": 31.691504084134408,
+    "best_departure": "08:45",
+    "best_path": "Home -> C1 -> C2 -> T2 -> Uni",
+    "avg_runtime_s": 0.022483200000351644,
+    "avg_iterations": 91.33333333333333,
+    "runs": 3
+  },
+  {
+    "scenario": "dual_peak_rush_hour",
+    "algorithm": "Simulated Annealing",
+    "best_cost_min": 31.691504084134408,
+    "best_departure": "08:45",
+    "best_path": "Home -> C1 -> C2 -> T2 -> Uni",
+    "avg_runtime_s": 0.27854140000029776,
+    "avg_iterations": 1457.0,
+    "runs": 3
+  },
+  {
+    "scenario": "dual_peak_rush_hour",
+    "algorithm": "Local Beam Search",
+    "best_cost_min": 31.691504084134408,
+    "best_departure": "08:45",
+    "best_path": "Home -> C1 -> C2 -> T2 -> Uni",
+    "avg_runtime_s": 0.01066726666673882,
+    "avg_iterations": 5.333333333333333,
+    "runs": 3
+  },
+  {
+    "scenario": "dual_peak_rush_hour",
+    "algorithm": "Genetic Algorithm",
+    "best_cost_min": 31.691504084134408,
+    "best_departure": "08:45",
+    "best_path": "Home -> C1 -> C2 -> T2 -> Uni",
+    "avg_runtime_s": 0.41019076666634646,
+    "avg_iterations": 120.0,
+    "runs": 3
+  },
+  {
+    "scenario": "cascading_gridlock",
+    "algorithm": "Hill Climbing",
+    "best_cost_min": 31.01863340914167,
+    "best_departure": "08:45",
+    "best_path": "Home -> C1 -> C2 -> B2 -> Uni",
+    "avg_runtime_s": 0.02739060000021709,
+    "avg_iterations": 109.66666666666667,
+    "runs": 3
+  },
+  {
+    "scenario": "cascading_gridlock",
+    "algorithm": "Simulated Annealing",
+    "best_cost_min": 31.01863340914167,
+    "best_departure": "08:45",
+    "best_path": "Home -> C1 -> C2 -> T2 -> Uni",
+    "avg_runtime_s": 0.2828252000005402,
+    "avg_iterations": 1457.0,
+    "runs": 3
+  },
+  {
+    "scenario": "cascading_gridlock",
+    "algorithm": "Local Beam Search",
+    "best_cost_min": 31.01863340914167,
+    "best_departure": "08:45",
+    "best_path": "Home -> C1 -> C2 -> B2 -> Uni",
+    "avg_runtime_s": 0.00863736666603169,
+    "avg_iterations": 4.333333333333333,
+    "runs": 3
+  },
+  {
+    "scenario": "cascading_gridlock",
+    "algorithm": "Genetic Algorithm",
+    "best_cost_min": 31.01863340914167,
+    "best_departure": "08:45",
+    "best_path": "Home -> C1 -> C2 -> T2 -> Uni",
+    "avg_runtime_s": 0.41582613333412155,
+    "avg_iterations": 120.0,
+    "runs": 3
+  },
+  {
+    "scenario": "crossover_showcase",
+    "algorithm": "Hill Climbing",
+    "best_cost_min": 31.007595501452784,
+    "best_departure": "08:45",
+    "best_path": "Home -> C1 -> C2 -> B2 -> Uni",
+    "avg_runtime_s": 0.026344866665870843,
+    "avg_iterations": 106.66666666666667,
+    "runs": 3
+  },
+  {
+    "scenario": "crossover_showcase",
+    "algorithm": "Simulated Annealing",
+    "best_cost_min": 31.007595501452784,
+    "best_departure": "08:45",
+    "best_path": "Home -> C1 -> C2 -> B2 -> Uni",
+    "avg_runtime_s": 0.29003953333328053,
+    "avg_iterations": 1457.0,
+    "runs": 3
+  },
+  {
+    "scenario": "crossover_showcase",
+    "algorithm": "Local Beam Search",
+    "best_cost_min": 31.007595501452784,
+    "best_departure": "08:45",
+    "best_path": "Home -> C1 -> C2 -> T2 -> Uni",
+    "avg_runtime_s": 0.014669799999561898,
+    "avg_iterations": 7.333333333333333,
+    "runs": 3
+  },
+  {
+    "scenario": "crossover_showcase",
+    "algorithm": "Genetic Algorithm",
+    "best_cost_min": 31.007595501452784,
+    "best_departure": "08:45",
+    "best_path": "Home -> C1 -> C2 -> T2 -> Uni",
+    "avg_runtime_s": 0.425981600000038,
+    "avg_iterations": 120.0,
+    "runs": 3
+  },
+  {
+    "scenario": "flat_plateau",
+    "algorithm": "Hill Climbing",
+    "best_cost_min": 28.85155203658087,
+    "best_departure": "08:45",
+    "best_path": "Home -> G1 -> G2 -> G3 -> G7 -> Uni",
+    "avg_runtime_s": 0.015403833333645403,
+    "avg_iterations": 96.33333333333333,
+    "runs": 3
+  },
+  {
+    "scenario": "flat_plateau",
+    "algorithm": "Simulated Annealing",
+    "best_cost_min": 28.85155203658087,
+    "best_departure": "08:45",
+    "best_path": "Home -> G1 -> G2 -> G3 -> G7 -> Uni",
+    "avg_runtime_s": 0.19509716666713453,
+    "avg_iterations": 1457.0,
+    "runs": 3
+  },
+  {
+    "scenario": "flat_plateau",
+    "algorithm": "Local Beam Search",
+    "best_cost_min": 28.85155203658087,
+    "best_departure": "08:45",
+    "best_path": "Home -> G1 -> G2 -> G3 -> G7 -> Uni",
+    "avg_runtime_s": 0.009757366666841941,
+    "avg_iterations": 7.333333333333333,
+    "runs": 3
+  },
+  {
+    "scenario": "flat_plateau",
+    "algorithm": "Genetic Algorithm",
+    "best_cost_min": 28.85155203658087,
+    "best_departure": "08:45",
+    "best_path": "Home -> G1 -> G2 -> G3 -> G7 -> Uni",
+    "avg_runtime_s": 0.3635211666660325,
+    "avg_iterations": 120.0,
+    "runs": 3
+  }
+]

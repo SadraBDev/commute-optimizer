@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {"id": "Home", "x": 0.0,  "y": 5.0, "label": "Home (Start)"},
+    {"id": "H1",   "x": 3.0,  "y": 8.0, "label": "Highway Junc 1"},
+    {"id": "H2",   "x": 7.0,  "y": 8.0, "label": "Highway Junc 2"},
+    {"id": "B1",   "x": 3.0,  "y": 2.0, "label": "Boulevard 1"},
+    {"id": "B2",   "x": 5.0,  "y": 2.0, "label": "Boulevard 2"},
+    {"id": "B3",   "x": 7.0,  "y": 2.0, "label": "Boulevard 3"},
+    {"id": "Uni",  "x": 10.0, "y": 5.0, "label": "University (Dest)"}
+  ],
+  "edges": [
+    {"u": "Home", "v": "H1",  "base_time": 10.0},
+    {"u": "H1",   "v": "H2",  "base_time": 10.0},
+    {"u": "H2",   "v": "Uni", "base_time": 10.0},
+
+    {"u": "Home", "v": "B1",  "base_time": 12.0},
+    {"u": "B1",   "v": "B2",  "base_time": 11.0},
+    {"u": "B2",   "v": "B3",  "base_time": 11.0},
+    {"u": "B3",   "v": "Uni", "base_time": 12.0},
+
+    {"u": "H1",   "v": "B1",  "base_time": 6.0},
+    {"u": "B1",   "v": "H1",  "base_time": 6.0},
+    {"u": "H2",   "v": "B2",  "base_time": 6.0},
+    {"u": "B2",   "v": "H2",  "base_time": 6.0},
+    {"u": "B2",   "v": "Uni", "base_time": 18.0}
+  ]
+}

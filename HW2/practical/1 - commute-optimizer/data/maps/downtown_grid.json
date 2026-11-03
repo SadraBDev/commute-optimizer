@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {"id": "Home", "x": 0.0, "y": 4.0, "label": "Home (Start)"},
+    {"id": "G1",   "x": 2.0, "y": 4.0, "label": "1st & Main"},
+    {"id": "G2",   "x": 4.0, "y": 4.0, "label": "2nd & Main"},
+    {"id": "G3",   "x": 6.0, "y": 4.0, "label": "3rd & Main"},
+
+    {"id": "G4",   "x": 0.0, "y": 2.0, "label": "1st & Market"},
+    {"id": "G5",   "x": 2.0, "y": 2.0, "label": "2nd & Market"},
+    {"id": "G6",   "x": 4.0, "y": 2.0, "label": "3rd & Market"},
+    {"id": "G7",   "x": 6.0, "y": 2.0, "label": "4th & Market"},
+
+    {"id": "G8",   "x": 0.0, "y": 0.0, "label": "1st & Broadway"},
+    {"id": "G9",   "x": 2.0, "y": 0.0, "label": "2nd & Broadway"},
+    {"id": "G10",  "x": 4.0, "y": 0.0, "label": "3rd & Broadway"},
+    {"id": "Uni",  "x": 6.0, "y": 0.0, "label": "University (Dest)"}
+  ],
+  "edges": [
+    {"u": "Home", "v": "G1",  "base_time": 5.0},
+    {"u": "G1",   "v": "G2",  "base_time": 5.0},
+    {"u": "G2",   "v": "G3",  "base_time": 5.0},
+    {"u": "G3",   "v": "G7",  "base_time": 5.0},
+    {"u": "G7",   "v": "Uni", "base_time": 5.0},
+
+    {"u": "Home", "v": "G4",  "base_time": 5.0},
+    {"u": "G4",   "v": "G8",  "base_time": 5.0},
+    {"u": "G8",   "v": "G9",  "base_time": 5.0},
+    {"u": "G9",   "v": "G10", "base_time": 5.0},
+    {"u": "G10",  "v": "Uni", "base_time": 5.0},
+
+    {"u": "G1",   "v": "G5",  "base_time": 5.0},
+    {"u": "G5",   "v": "G6",  "base_time": 5.0},
+    {"u": "G6",   "v": "G7",  "base_time": 5.0},
+
+    {"u": "G4",   "v": "G5",  "base_time": 5.0},
+    {"u": "G5",   "v": "G9",  "base_time": 5.0},
+    {"u": "G2",   "v": "G6",  "base_time": 5.0},
+    {"u": "G6",   "v": "G10", "base_time": 5.0}
+  ]
+}
